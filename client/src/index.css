@@ -62,33 +62,33 @@
   --elevate-1: rgba(0,0,0, .03);
   --elevate-2: rgba(0,0,0, .08);
 
-  --background: 35 45% 97%;
-  --foreground: 222 25% 14%;
+  --background: 35 100% 98%;
+  --foreground: 22 45% 15%;
 
   --card: 0 0% 100%;
-  --card-foreground: 222 25% 14%;
+  --card-foreground: 22 45% 15%;
 
   --popover: 0 0% 100%;
-  --popover-foreground: 222 25% 14%;
+  --popover-foreground: 22 45% 15%;
 
-  --primary: 18 88% 56%;
+  --primary: 14 85% 62%;
   --primary-foreground: 0 0% 100%;
 
-  --secondary: 180 45% 92%;
-  --secondary-foreground: 222 25% 14%;
+  --secondary: 42 100% 94%;
+  --secondary-foreground: 22 60% 25%;
 
-  --muted: 35 35% 93%;
-  --muted-foreground: 222 12% 40%;
+  --muted: 35 60% 94%;
+  --muted-foreground: 22 20% 45%;
 
-  --accent: 150 55% 90%;
-  --accent-foreground: 222 25% 14%;
+  --accent: 85 45% 92%;
+  --accent-foreground: 22 60% 25%;
 
   --destructive: 0 72% 55%;
   --destructive-foreground: 0 0% 100%;
 
-  --border: 30 25% 88%;
-  --input: 30 25% 82%;
-  --ring: 18 88% 56%;
+  --border: 35 50% 90%;
+  --input: 35 50% 85%;
+  --ring: 14 85% 62%;
 
   --card-border: 30 25% 88%;
   --sidebar: 35 45% 97%;
@@ -300,9 +300,9 @@
 
   .mc-gradient {
     background:
-      radial-gradient(900px 500px at 12% 0%, hsl(var(--accent) / .55), transparent 60%),
-      radial-gradient(900px 500px at 88% 10%, hsl(var(--secondary) / .70), transparent 60%),
-      radial-gradient(900px 500px at 55% 85%, hsl(var(--primary) / .18), transparent 55%),
+      radial-gradient(900px 500px at 12% 0%, hsl(85 60% 88% / .6), transparent 60%),
+      radial-gradient(900px 500px at 88% 10%, hsl(42 100% 90% / .8), transparent 60%),
+      radial-gradient(900px 500px at 55% 85%, hsl(14 85% 62% / .12), transparent 55%),
       linear-gradient(180deg, hsl(var(--background)), hsl(var(--background)));
   }
 
