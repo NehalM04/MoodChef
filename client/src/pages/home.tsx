@@ -479,7 +479,7 @@ export default function Home() {
   <span className="inline-block animate-pulse text-red-500 drop-shadow-[0_0_4px_rgba(239,68,68,0.6)]">
   ❤️
 </span>{" "}
-   Cooked in Code n Cravings - Nehal Mehta & Rushikesh Korde
+   Cooked in Code n Cravings - Nehal Mehta , Rushikesh Korde & Om Jumle
 </span>
 
 </div>
